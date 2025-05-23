@@ -24,3 +24,12 @@ git remote add origin https://github.com/RakhelFadhilaN/responsi-studi-kasus-1-5
 git remote add upstream https://github.com/senpro2023/responsi-studi-kasus-1
 git remote -v
 git commit -m "Update readme"
+git add . 
+git commit -m "Update readme"
+git push origin main
+git push origin
+git remote add upstream https://github.com/senpro2023/responsi-studi-kasus-1
+git branch 'upstream'
+git checkout upstream
+git status
+nano README.md
